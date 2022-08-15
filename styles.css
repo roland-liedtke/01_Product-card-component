@@ -155,7 +155,7 @@ body {
   font-family: Montserrat, sans-serif;
   font-size: 1em;
   color: var(--very-grayish-blue);
-  vertical-align: baseline;
+  vertical-align: super;
 }
 
 .card .content button {
@@ -173,6 +173,7 @@ body {
 
 .card .content button:hover, .card .content button:focus {
   background-color: rgb(10, 65, 10);
+  cursor: pointer;
 }
 
 @media (max-width: 375px) {
